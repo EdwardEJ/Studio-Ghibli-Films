@@ -1,3 +1,5 @@
+//'require' is older JS format
+//can be written in ES6 format "import x from y", but comes up with errors
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const cors = require('cors');
