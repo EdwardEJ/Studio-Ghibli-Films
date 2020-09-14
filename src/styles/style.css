@@ -1,0 +1,83 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#86deff), to(#fff));
+  background: linear-gradient(#86deff 0%, #fff 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Baloo 2', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+  width: 100%;
+  margin: 0 0 3% 0;
+}
+
+.movies-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.movies-container .movie-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px;
+          box-shadow: 0px 3px 6px;
+  margin: 3%;
+  width: 40%;
+  position: relative;
+}
+
+.movies-container .movie-card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movies-container .movie-card .movie-content {
+  position: absolute;
+  bottom: 0;
+  padding: 3%;
+  width: 100%;
+  background: rgba(46, 46, 46, 0.85);
+  border-radius: 10px;
+  color: white;
+}
+
+.person-container {
+  margin: 3%;
+}
+
+.person-container h2 {
+  font-size: 3rem;
+}
+
+.person-container p {
+  font-size: 1.8rem;
+  padding: 3% 0;
+}
+/*# sourceMappingURL=style.css.map */
