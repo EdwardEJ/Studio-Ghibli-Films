@@ -26,6 +26,11 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+header img {
+  width: 100%;
+  margin: 0 0 3% 0;
+}
+
 .movies-container {
   display: -webkit-box;
   display: -ms-flexbox;
