@@ -6,4 +6,4 @@ Ghibli Studio React App based off of https://ghibliapi.herokuapp.com/ API. Built
 
 # Start Up
 To cocurrently run project, type into termainal "npm run dev" 
-This will spin up the GraphQL server on localhost:5000 and run the create project on localhost:3000/
+This will spin up the GraphQL server on localhost:5000 and run the react project on localhost:3000/
