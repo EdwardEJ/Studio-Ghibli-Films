@@ -5,8 +5,8 @@ https://ghibli-studio-movie-app.herokuapp.com/
 Ghibli Studio React App based off of https://ghibliapi.herokuapp.com/ API. Built using GraphQL, Apollo, and SASS.
 
 # Start Up
-npm install root folder
-cd into client folder and npm install dependencies
+#npm install root folder
+#cd into client folder and npm install dependencies
 
 To cocurrently run project, type into termainal "npm run dev" 
 This will spin up the GraphQL server on localhost:5000 and run the react project on localhost:3000/
