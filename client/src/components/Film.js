@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { gql, useQuery } from '@apollo/client';
 // import People from './People'
+//test
 
 const GHIBLI_FILM = gql`
  query Film($id: String!) {
