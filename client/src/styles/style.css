@@ -26,8 +26,12 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+header h1 {
+  text-align: center;
+}
+
 header img {
-  width: 100%;
+  width: 60%;
   margin: 0 0 3% 0;
 }
 
@@ -47,8 +51,8 @@ header img {
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px 6px;
           box-shadow: 0px 3px 6px;
-  margin: 3%;
-  width: 40%;
+  margin: 2%;
+  width: 28%;
   position: relative;
 }
 
