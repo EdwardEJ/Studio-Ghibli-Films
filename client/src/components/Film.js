@@ -1,8 +1,7 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import { gql, useQuery } from "@apollo/client";
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import { gql, useQuery } from '@apollo/client';
 // import People from './People'
-//test
 
 const GHIBLI_FILM = gql`
   query Film($id: String!) {
@@ -24,19 +23,20 @@ const Film = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error</p>;
 
-  //str.substring(str.length - 36)
-
   const { title, description, release_date, director, producer } = data.Film;
-  console.log(description);
   return (
-    <div className="person-container">
-      <div className="person-content">
+    <div className='person-container'>
+      <div className='person-content'>
+        <img
+          src={require(`../images/${title.split(' ').join('-')}.jpg`)}
+          alt={title}
+        />
         <h2>{title}</h2>
         <p>
-          Released in {release_date} directed by {director} and produced by{" "}
+          Released in {release_date} directed by {director} and produced by{' '}
           {producer}
         </p>
-        <p>Description: {description}</p>
+        <p>{description}</p>
       </div>
     </div>
   );

@@ -1,7 +1,16 @@
-.person-container{
+.person-container {
   margin: 3%;
-  h2{
+  img {
+    width: 100%;
+    @media (min-width: 450px) {
+      width: 50%;
+      display: block;
+      margin: auto;
+    }
+  }
+  h2 {
     font-size: 3rem;
+    text-align: center;
   }
   p {
     font-size: 1.8rem;
