@@ -1,0 +1,2 @@
+(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[5],{104:function(e,t,n){e.exports=n.p+"static/media/Studio_Ghibli_logo.4a7752e4.svg"},106:function(e,t,n){"use strict";n.r(t);var a=n(2),i=n.n(a),l=n(42),c=n(104),r=n.n(c);t.default=function(){return i.a.createElement("header",null,i.a.createElement("h1",null,i.a.createElement(l.b,{to:"/"},i.a.createElement("img",{src:r.a,alt:"Studio Ghibli"}))))}}}]);
+//# sourceMappingURL=5.d8dc2072.chunk.js.map

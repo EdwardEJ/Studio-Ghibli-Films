@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.7062863d.chunk.css",
-    "main.js": "/static/js/main.f491bdcd.chunk.js",
-    "main.js.map": "/static/js/main.f491bdcd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e03a1db1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e03a1db1.js.map",
+    "main.js": "/static/js/main.7fa2df00.chunk.js",
+    "main.js.map": "/static/js/main.7fa2df00.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b27ca6bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b27ca6bf.js.map",
     "static/js/2.24a56b7b.chunk.js": "/static/js/2.24a56b7b.chunk.js",
     "static/js/2.24a56b7b.chunk.js.map": "/static/js/2.24a56b7b.chunk.js.map",
-    "static/js/3.78789b2c.chunk.js": "/static/js/3.78789b2c.chunk.js",
-    "static/js/3.78789b2c.chunk.js.map": "/static/js/3.78789b2c.chunk.js.map",
-    "static/js/4.c4971722.chunk.js": "/static/js/4.c4971722.chunk.js",
-    "static/js/4.c4971722.chunk.js.map": "/static/js/4.c4971722.chunk.js.map",
-    "static/js/5.6e6b8374.chunk.js": "/static/js/5.6e6b8374.chunk.js",
-    "static/js/5.6e6b8374.chunk.js.map": "/static/js/5.6e6b8374.chunk.js.map",
+    "static/js/3.658dc927.chunk.js": "/static/js/3.658dc927.chunk.js",
+    "static/js/3.658dc927.chunk.js.map": "/static/js/3.658dc927.chunk.js.map",
+    "static/js/4.710e61dc.chunk.js": "/static/js/4.710e61dc.chunk.js",
+    "static/js/4.710e61dc.chunk.js.map": "/static/js/4.710e61dc.chunk.js.map",
+    "static/js/5.d8dc2072.chunk.js": "/static/js/5.d8dc2072.chunk.js",
+    "static/js/5.d8dc2072.chunk.js.map": "/static/js/5.d8dc2072.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c062156e207e47b667c9e6d834d70259.js": "/precache-manifest.c062156e207e47b667c9e6d834d70259.js",
+    "precache-manifest.36aaf15299827e09fd788ad5f8da6396.js": "/precache-manifest.36aaf15299827e09fd788ad5f8da6396.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7062863d.chunk.css.map": "/static/css/main.7062863d.chunk.css.map",
     "static/js/2.24a56b7b.chunk.js.LICENSE.txt": "/static/js/2.24a56b7b.chunk.js.LICENSE.txt",
@@ -35,15 +35,16 @@
     "static/media/Studio_Ghibli_logo.svg": "/static/media/Studio_Ghibli_logo.4a7752e4.svg",
     "static/media/Tales-from-Earthsea.jpg": "/static/media/Tales-from-Earthsea.b038136d.jpg",
     "static/media/The-Cat-Returns.jpg": "/static/media/The-Cat-Returns.05b6c256.jpg",
+    "static/media/The-Red-Turtle.jpg": "/static/media/The-Red-Turtle.b344ab0d.jpg",
     "static/media/The-Tale-of-the-Princess-Kaguya.jpg": "/static/media/The-Tale-of-the-Princess-Kaguya.0fec28b4.jpg",
     "static/media/The-Wind-Rises.jpg": "/static/media/The-Wind-Rises.89545441.jpg",
     "static/media/When-Marnie-Was-There.jpg": "/static/media/When-Marnie-Was-There.965a8259.jpg",
     "static/media/Whisper-of-the-Heart.jpg": "/static/media/Whisper-of-the-Heart.2009000d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e03a1db1.js",
+    "static/js/runtime-main.b27ca6bf.js",
     "static/js/2.24a56b7b.chunk.js",
     "static/css/main.7062863d.chunk.css",
-    "static/js/main.f491bdcd.chunk.js"
+    "static/js/main.7fa2df00.chunk.js"
   ]
 }
