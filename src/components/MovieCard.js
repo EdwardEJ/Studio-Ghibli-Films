@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import name from '../movie-cover.jpg';
 
 const MovieCard = ({
-	film: { title, director, producer, release_date, id },
+	film: { title, director, producer, release_date, id, image },
 }) => {
 	return (
 		<div id={title} className='movie-card'>
 			<Link to={`Film/${id}`}>
-				<img src={name} alt='dummy' />
+				<img src={image} alt={`${title} movie poster`} />
 				<div className='movie-content'>
 					<h2>{title}</h2>
 					<p>Director: {director}</p>

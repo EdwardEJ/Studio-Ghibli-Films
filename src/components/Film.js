@@ -7,11 +7,13 @@ const GHIBLI_FILM = gql`
 	query Film($id: String!) {
 		Film(id: $id) {
 			title
+			original_title
+			original_title_romanised
 			description
 			director
 			producer
 			release_date
-			people
+			image
 		}
 	}
 `;
@@ -29,13 +31,24 @@ const Film = () => {
 	// peopleArray.splice(0, 1)
 	// let peopleIDs = peopleArray.concat(test)
 
-	const { title, description, release_date, director, producer } = data.Film;
+	const {
+		title,
+		original_title_romanised,
+		original_title,
+		description,
+		release_date,
+		director,
+		producer,
+		image,
+	} = data.Film;
 	return (
 		<div className='person-container'>
 			<div className='person-content'>
 				<h2>{title}</h2>
+				<img alt={`${title} movie poster`} src={image} />
 				<p>
-					Released in {release_date} directed by {director} and produced by{' '}
+					Known as {original_title_romanised} in Japanese ({original_title}) was
+					released in {release_date} directed by {director} and produced by
 					{producer}
 				</p>
 				<p>Description: {description}</p>

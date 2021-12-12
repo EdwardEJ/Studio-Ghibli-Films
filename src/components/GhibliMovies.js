@@ -7,6 +7,7 @@ const GHIBLI_MOVIES = gql`
 		Movies {
 			id
 			title
+			image
 			director
 			producer
 			release_date
