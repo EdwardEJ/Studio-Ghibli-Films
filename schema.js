@@ -33,17 +33,13 @@ const FilmType = new GraphQLObjectType({
 	fields: () => ({
 		id: { type: GraphQLString },
 		title: { type: GraphQLString },
+		original_title: { type: GraphQLString },
+		original_title_romanised: { type: GraphQLString },
 		description: { type: GraphQLString },
 		director: { type: GraphQLString },
 		producer: { type: GraphQLString },
 		release_date: { type: GraphQLString },
 		image: { type: GraphQLString },
-		people: {
-			type: GraphQLString,
-			resolve(obj) {
-				return obj.people.toString();
-			},
-		},
 	}),
 });
 
@@ -107,7 +103,7 @@ const RootQuery = new GraphQLObjectType({
 			args: {
 				id: { type: GraphQLString },
 			},
-			resolve(parent, args) {
+			resolve(_, args) {
 				return Axios.get(
 					`https://ghibliapi.herokuapp.com/films/${args.id}`
 				).then((res) => res.data);
