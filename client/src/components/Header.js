@@ -7,7 +7,7 @@ const Header = () => {
 		<header>
 			<h1>
 				<Link to={'/'}>
-					<img src={GhibliLogo} alt='Studio Ghibli' />
+					<GhibliLogo />
 				</Link>
 			</h1>
 		</header>

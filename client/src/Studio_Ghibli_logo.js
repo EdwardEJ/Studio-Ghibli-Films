@@ -1,17 +1,7 @@
 import * as React from 'react';
 
-export const GhibliLogo = (props) => (
-	<svg
-		xmlns:dc='http://purl.org/dc/elements/1.1/'
-		xmlns:cc='http://creativecommons.org/ns#'
-		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-		xmlns:svg='http://www.w3.org/2000/svg'
-		xmlns='http://www.w3.org/2000/svg'
-		width={300}
-		height={144.34299}
-		id='svg11836'
-		{...props}
-	>
+const GhibliLogo = (props) => (
+	<svg {...props}>
 		<defs id='defs11838'>
 			<clipPath id='clipPath6329'>
 				<path
@@ -20,15 +10,7 @@ export const GhibliLogo = (props) => (
 				/>
 			</clipPath>
 		</defs>
-		<metadata id='metadata11841'>
-			<rdf:RDF>
-				<cc:Work rdf:about=''>
-					<dc:format>{'image/svg+xml'}</dc:format>
-					<dc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' />
-					<dc:title />
-				</cc:Work>
-			</rdf:RDF>
-		</metadata>
+		<metadata id='metadata11841'></metadata>
 		<g transform='translate(35.714285,-371.61926)' id='layer1'>
 			<g transform='translate(191.39064,-942.17025)' id='g11653'>
 				<g
@@ -793,3 +775,5 @@ export const GhibliLogo = (props) => (
 		</g>
 	</svg>
 );
+
+export default GhibliLogo;
